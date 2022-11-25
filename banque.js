@@ -12,10 +12,11 @@ form.addEventListener("submit", function (event){
     console.log(compte.value.length);
     console.log(depo.value);
 
-    
+    //verifie si le compte en banque a 16 chiffres
     if(compte.value.length == 16) {
         console.log("compte = 16");
 
+        //verifie  si le 
         if(depo > 0) {
             alert("correcte");
         } else {
