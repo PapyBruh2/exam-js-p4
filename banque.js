@@ -16,7 +16,7 @@ form.addEventListener("submit", function (event){
     if(compte.value.length == 16) {
         console.log("compte = 16");
 
-        //verifie  si le 
+        //verifie  si le
         if(depo > 0) {
             alert("correcte");
         } else {
